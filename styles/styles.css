@@ -43,9 +43,13 @@ main{
 }
 
 aside{
-    position: absolute;
+    position: relative;
     width: 20rem;
     text-align: center;
+}
+
+aside h2{
+    position:absolute;
 }
 
 aside img{
