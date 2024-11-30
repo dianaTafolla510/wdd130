@@ -1,0 +1,28 @@
+:root {
+    --heading-background-color: --lapis-lazuli: #1f629aff;
+    --heading-text-color: --delft-blue: #1e3257ff;
+    --heading-font: 'Montserrat' , Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid --silver: #cecac8ff;
+}
+.hero img{
+    display:block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+}
+h1{
+    position:absolute;
+
+}
+article{
+    position:absolute;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+}

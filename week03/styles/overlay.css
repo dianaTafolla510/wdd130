@@ -9,7 +9,9 @@ main {
 	font-family: Roboto, Arial, sans-serif;
 }
 
-h2 {
+h1, h2, h3, h4{
+    font-family: "Merriweather", serif;
+    /* font-family: "Parkinsans";*/
 	text-align: center;
 	font-size: 1.5rem;
 	text-shadow: 3px 3px 5px #777;
