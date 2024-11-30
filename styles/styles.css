@@ -26,12 +26,14 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float:right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -39,7 +41,7 @@ p {
 }
 
 main{
-    max-width: 840px;
+    max-width: 640px;
 }
 
 aside{
@@ -50,6 +52,8 @@ aside{
 
 aside h2{
     position:absolute;
+    top: 20px;
+    left: 100px;
 }
 
 aside img{

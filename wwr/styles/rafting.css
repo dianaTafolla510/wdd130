@@ -5,19 +5,51 @@
     --padding: 1rem;
     --border: 1px solid --silver: #cecac8ff;
 }
+main{
+    max-width: 800px;
+	margin: 2rem auto;
+	font-family: Roboto, Arial, sans-serif;
+}
+h1, h2, h3, h4{
+    /*font-family: "Merriweather", serif;*/
+    font-family: "Parkinsans";
+	text-align: left;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+}
+.hero {
+	margin: 10px auto;
+    /*position: relative; /* If removed, what happens? */
+}
+
+
+
 .hero img{
     display:block;
     width: 100%;
-    height: auto;
-    position: relative;
-    object-fit: cover;
+    height: auto;  
 }
 h1{
     position:absolute;
+    color: #1f629aff;
+    background: #cecac8ff;
+    padding: 1rem;
 
 }
 article{
     position:absolute;
+}
+.hero article img{
+    width:200px;
+    height:auto;
+    position:absolute;
+    float: right;
+    
+}
+.hero p{
+    position:absolute;
+    background: #cecac8ff;
+    /*float: right;*/
 }
 
 footer{
