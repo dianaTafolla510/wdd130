@@ -114,11 +114,14 @@ body{
 .box{
     margin: 1rem;
     border: 1px solid rgb(0 0 0/ .1);
-    padding: 1rem;
+    padding: 2rem;
     background-color: #ddd;
     color: #000;
+    
+    
     
 }
 footer{
     text-align: center;
+
 }
