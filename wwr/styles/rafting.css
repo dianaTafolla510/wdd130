@@ -1,60 +1,153 @@
 :root {
-    --heading-background-color: --lapis-lazuli: #1f629aff;
-    --heading-text-color: --delft-blue: #1e3257ff;
-    --heading-font: 'Montserrat' , Helvetica, sans-serif;
+    /*--heading-background-color: --lapis-lazuli: #1f629aff;*/
+    /*--heading-text-color: --delft-blue: #1e3257ff;*/
+    /*--heading-font: 'Montserrat' , Helvetica, sans-serif;*/
     --padding: 1rem;
     --border: 1px solid --silver: #cecac8ff;
 }
-main{
-    max-width: 800px;
-	margin: 2rem auto;
-	font-family: Roboto, Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1, h2, h3, h4{
-    /*font-family: "Merriweather", serif;*/
-    font-family: "Parkinsans";
-	text-align: left;
-	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #777;
-}
-.hero {
-	margin: 10px auto;
-    /*position: relative; /* If removed, what happens? */
-}
-
-
-
-.hero img{
-    display:block;
-    width: 100%;
-    height: auto;  
-}
-h1{
-    position:absolute;
-    color: #1f629aff;
-    background: #cecac8ff;
-    padding: 1rem;
-
-}
-article{
-    position:absolute;
-}
-.hero article img{
-    width:200px;
-    height:auto;
-    position:absolute;
-    float: right;
+header, footer{
+    max-width: 1000px;
+    margin: 1rem auto;
     
 }
-.hero p{
-    position:absolute;
-    background: #cecac8ff;
-    /*float: right;*/
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
 }
-
 footer{
-    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
     text-decoration: none;
+
+}
+.logo-box{
+    margin: 0 1rem 0 3rem;
+    width: 64px;
+    height: auto;
+}
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background: #e1951b;
+
+}
+
+.tabs a{
+    text-decoration: none;
+    padding: 2rem;
+    justify-content: center;
+    
+}
+
+main{
+    max-width: 1000px;
+	margin: 2rem auto;
+	font-family: Roboto, Arial, sans-serif;
+}
+.hero{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /*position: absolute; /* If removed, what happens? */
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    font-family: "Parkinsans";
+    color: whitesmoke;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+}
+h2, h3, h4{
+    /*font-family: "Merriweather", serif;*/
+    font-family: "Parkinsans";
+	/*text-align: left;*/
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+}
+
+.box {
+    max-width: 800px;
+    margin: 4rem auto;
+    background-color: #e1951b;
+    position: absolute;
+}
+.box img{
+    width: 200px;
+    height: auto;
+    float: right;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.box p{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.history{
+    width: 100%;
+    display: inline-block;
+    place-items: center;
+    margin:1rem 0;
+    background:#3f6e98;
+
+}
+.history h2{
+    margin: 1rem 0;
+    padding: 1rem;
+    color:black;
+}
+.hist{
+    margin: 0 1rem 2rem 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.hist img{
+    width: 200px;
+    height: auto;
+    margin: 0 0 0 2rem;
+}
+.hist p{
+    display: flex;
+    margin: 0 1rem 0 2rem;
+}
+
+.adventure{
+    display: grid;
+    place-items: center;
+    margin: 1rem 0;
+}
+.pictures{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.pictures img{
+    width: 150px;
+    margin: 1rem;
+}
+.pictures figcaption{
+    margin: 1.5rem;
+}
+footer{
+    border-top: 1px solid #000;
+    text-align: center;
+    text-decoration: none;
+
+}
+.sociallinks a{
+    padding: 1rem;
+    text-align: center;
+    
 }
