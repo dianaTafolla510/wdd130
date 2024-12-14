@@ -21,12 +21,6 @@ header{
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
-footer{
-    border-top: 1px solid #000;
-    text-align: center;
-    text-decoration: none;
-
-}
 .logo-box{
     margin: 0 1rem 0 3rem;
     width: 64px;
@@ -37,17 +31,12 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
-    /*background: #e1951b;*/
-
 }
-
 .tabs a{
     text-decoration: none;
     padding: 2rem;
-    justify-content: center;
-    
+    justify-content: center;  
 }
-
 main{
     max-width: 1000px;
 	margin: 2rem auto;
@@ -65,7 +54,6 @@ main{
     height: 100%;
     object-fit: cover;
 }
-
 .info {
     font-family: "Parkinsans";
     color: #3f6e98;
@@ -91,7 +79,6 @@ h2, h3, h4{
 	font-size: 1.5rem;
 	text-shadow: 3px 3px 5px #777;
 }
-
 .box {
     max-width: 800px;
     margin: 4rem auto;
@@ -113,7 +100,6 @@ h2, h3, h4{
     place-items: center;
     margin:1rem 0;
     background:#3f6e98;
-
 }
 .history h2{
     margin: 1rem 0;
@@ -123,8 +109,7 @@ h2, h3, h4{
 .hist{
     margin: 0 1rem 2rem 1rem;
     display: flex;
-    flex-wrap: nowrap;
-    
+    flex-wrap: nowrap;   
 }
 .hist img{
     width: 200px;
@@ -135,19 +120,19 @@ h2, h3, h4{
     display: flex;
     margin: 0 1rem 0 2rem;
 }
-
 .adventure, .staff{
     display: grid;
     place-items: center;
     margin: 1rem 0;
-}
-.pictures{
+}.pictures{
     display: flex;
     flex-wrap: nowrap;
 }
 .pictures img{
     width: 150px;
     margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .pictures figcaption{
     margin: 1.5rem;
@@ -156,14 +141,63 @@ h2, h3, h4{
     width: 300px;
     margin: 1rem;
 }
+form{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0/0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/0.2);
+    padding: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    color: #3f6e98;
+    font-size: 1.3em;
+}
+label, input, button, select, textarea{
+    font-family: Roboto, Arial, sans-serif;
+}
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button{
+    margin: 1rem;
+    background-color: #e1951b;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
 footer{
     border-top: 1px solid #000;
     text-align: center;
     text-decoration: none;
-
 }
 .sociallinks a{
     padding: 1rem;
-    text-align: center;
-    
+    text-align: center;   
 }
