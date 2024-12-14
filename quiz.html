@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Course Home - Quiz Form </title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Diana Tafolla | Course Home - Quiz Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Basic HTML and CSS Quiz</legend>
+                <div class="form-item">
+                    <label for="css-acronym">1. What does the acronym CSS stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-item">
+                    <label for="attributes">2. How are id and class attributes selected in CSS?</label>
+                    <input type="textarea" id="q2" name="q2">
+                </div>
+                <div class="form-item">
+                    <label for="comment">3. Which of the following is a valid CSS comment?</label>
+                    <select id="comment" name="comment">
+                        <option value="" selected disabled>Choose One</option>
+                        <option value="comment1">*/Comment/*</option>
+                        <option value="comment2">--Comment--</option>
+                        <option value="comment3">/*Comment*/</option>
+                        <option value="comment4">/Comment/</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="margin">4. What is the bottom margin given this declaration?</label>
+                    <label for="given-margin"> margin: 10px 5px 15px;</label>
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>@2025 | Course Home - Quiz Form | Diana Tafolla</p>
+    </footer>
+</body>
+</html>
