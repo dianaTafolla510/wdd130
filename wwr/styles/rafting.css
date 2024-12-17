@@ -1,6 +1,5 @@
 :root {
-    /*--heading-background-color: --lapis-lazuli: #1f629aff;*/
-    /*--heading-text-color: --delft-blue: #1e3257ff;*/
+    --heading-text-color: --delft-blue: #1e3257ff;
     /*--heading-font: 'Montserrat' , Helvetica, sans-serif;*/
     --padding: 1rem;
     --border: 1px solid --silver: #cecac8ff;
@@ -26,7 +25,7 @@ header{
     width: 64px;
     height: auto;
 }
-nav {
+nav{
     text-align: center;
     display: flex;
     justify-content: flex-end;
@@ -85,23 +84,25 @@ h2, h3, h4{
     background-color: #e1951b;
     position: absolute;
 }
-.box img{
+.box img, .trip1 img{
     width: 200px;
     height: auto;
     float: right;
     margin: 1rem 1rem 1rem 1rem;
 }
-.box p{
+.box p, .trip1 p{
     margin: 1rem 1rem 1rem 1rem;
 }
-.history, .action{
+
+
+.history{
     width: 100%;
     display: inline-block;
     place-items: center;
     margin:1rem 0;
-    background:#3f6e98;
+    background:#3f6e98;   
 }
-.history h2{
+.history h2, .trips h2{
     margin: 1rem 0;
     padding: 1rem;
     color:black;
@@ -124,7 +125,8 @@ h2, h3, h4{
     display: grid;
     place-items: center;
     margin: 1rem 0;
-}.pictures{
+}
+.pictures{
     display: flex;
     flex-wrap: nowrap;
 }
@@ -192,18 +194,35 @@ button{
 button:hover{
     background-color: darkgreen;
 }
-/*.column1{
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-.column2{
-    grid-template-columns: 1fr 2fr;
-}*/
 table, th, td {
     border:1px solid black;
     padding: 1rem;
+    margin:1rem auto;
     background-color: #e1951b;
-  }
+}
+.trip1{
+    position: relative;
+    width: 30rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.action{
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;   
+}
+
+.trips{
+    margin: 0;
+    ; 
+}
+.river{
+    width:;
+}
+.book{
+    background-color: #3f6e98;
+    text-align: center;
+}
 footer{
     border-top: 1px solid #000;
     text-align: center;
