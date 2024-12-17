@@ -94,7 +94,7 @@ h2, h3, h4{
 .box p{
     margin: 1rem 1rem 1rem 1rem;
 }
-.history{
+.history, .action{
     width: 100%;
     display: inline-block;
     place-items: center;
@@ -192,6 +192,18 @@ button{
 button:hover{
     background-color: darkgreen;
 }
+/*.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+}*/
+table, th, td {
+    border:1px solid black;
+    padding: 1rem;
+    background-color: #e1951b;
+  }
 footer{
     border-top: 1px solid #000;
     text-align: center;
