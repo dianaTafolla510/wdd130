@@ -1,6 +1,5 @@
 :root {
     --heading-text-color: --delft-blue: #1e3257ff;
-    /*--heading-font: 'Montserrat' , Helvetica, sans-serif;*/
     --padding: 1rem;
     --border: 1px solid --silver: #cecac8ff;
 }
