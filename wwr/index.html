@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Diana Tafolla | WWR About US</title>
-    <meta name="description" content="White Water Rafting page. Web Fundamentals. This page will help users find information about the company and its functions.">
+    <title>Diana Tafolla | WWR Home</title>
+    <meta name="description" content="White Water Rafting Home page. Web Fundamentals. This page will help users find information about the company and its functions.">
     <meta name="author" content="Diana Tafolla">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,46 +34,64 @@
     <main>
         <div class="hero">
             <h1>White Water Rafting</h1>
+            <h2>Join us on the adventure of a lifetime</h2>
             <img src="images/littlecolorado-wide.jpg" alt="water rafting div background">
-            <article class="box">
+            <!--<article class="box">
                 <img src="images/rafting59_600.jpg" alt="happy clients">
 
-                <p>Whitewater rafting is a type of recreation that involves navigating a non-motorized watercraft down free flowing rivers. Our company organizes trips, provides the watercraft, life jackets, etc., and offers experienced guides to take passengers down the Sacramento river. So join us for a thrilling and safe experience to individuals and groups.</p>                    
+                <p>Whitewater rafting is a type of recreation that involves navigating a non-motorized watercraft down free flowing rivers. Our company organizes trips, provides the watercraft, life jackets, etc., and offers experienced guides to take passengers down the Sacramento river. So join us for a thrilling and safe experience to individuals and groups.</p>                  
                 
-            </article>
+            </article>-->
         </div>
-        <div class="history">
-                <h2>Our History</h2>
-                <section class="hist">
+        <div class="newsletter">
+                <h2>Sign up for our newsletter</h2>
+                <form>
+                    <fieldset>
+                        <legend>Subcribe</legend>
+                        <!-- form elements will go here -->
+                        <div class="form-item">
+                            <label for="fullname">Full name:</label>
+                            <input type="text" id="fullname" name="fullname">
+                        </div>
+                        <div class="form-item column2"> 
+                            <label for="useremail">Email:</label>
+                            <input type="email" id="useremail" name="useremail">
+                        </div>
+                        <div class="form-item">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+                <!--<section class="hist">
                     <p>We are a family owned bussiness and have been for three generations since we opened our doors back in June of 1965, helping many people make great memories and thrilling experiences.</p>
                     <img src="images/river-narrow.jpg" alt="history image">
                     <p>The Sacramento river has been home to us since we first started in this journey, and continues to be a great location for fun and exciting adventures. We continue to provide an amazing experience for families, friends, company outings, team building field trips birthday parties, and more!</p>
-                </section>
+                </section>-->
         </div>
-        <div class="adventure">
-            <h2>Adventure Awaits You</h2>
-            <section class="pictures">
-                <figure>
+        <div class="adventureh">
+            <h2>Let us guide you </h2>
+            <section class="picturesh">
+                <!--<figure>
                     <img src="images/rafting-helments.jpg" alt="White water rafting">
                     <figcaption>The best equipment</figcaption>
-                </figure>
+                </figure>-->
                 <figure>
                     <img src="images/rafting58_600.jpg" alt="White water rafting">
-                    <figcaption>The best sceneries</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting33_600.jpg" alt="White water rafting">
-                    <figcaption>Great adventures</figcaption>
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
                 <img src="images/rafting26_600.jpg" alt="White water rafting">
-                <figcaption>Great Memories</figcaption>
-                </figure>
-                <figure>
-                <img src="images/rafting47_600.jpg" alt="White water rafting">
-                <figcaption>Fun for All</figcaption>
+                <figcaption></figcaption>
                 </figure>
             </section>
+            <div>
+                <section class="action">
+                    <h2>Check out our wonderful trips</h2>
+                    <a href="trips.html"><button type="submit">Trips</button></a>
+                </section>
+            </div>
         </div>
     </main>
     <footer>

@@ -41,7 +41,7 @@ main{
 	font-family: Roboto, Arial, sans-serif;
 }
 .hero, .contact{
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ main{
     height: 100%;
     object-fit: cover;
 }
-.info {
+.info{
     font-family: "Parkinsans";
     color: #3f6e98;
     padding: 4rem;
@@ -65,10 +65,20 @@ main{
 }
 h1{
     font-family: "Parkinsans";
-    color: whitesmoke;
+    color: white;
     padding: 1rem;
     position: absolute;
     text-align: center;
+}
+.hero h2{
+    color: white;
+    padding: 5rem;
+    position: absolute;
+}
+.hero h3{  
+    color:#3f6e98;
+    padding: 8rem;
+    position: absolute;
 }
 h2, h3, h4{
     /*font-family: "Merriweather", serif;*/
@@ -99,7 +109,8 @@ h2, h3, h4{
     display: inline-block;
     place-items: center;
     margin:1rem 0;
-    background:#3f6e98;   
+    border: solid#e1951b;
+    /*background:#3f6e98;   */
 }
 .history h2, .trips h2{
     margin: 1rem 0;
@@ -112,7 +123,7 @@ h2, h3, h4{
     flex-wrap: nowrap;   
 }
 .hist img{
-    width: 200px;
+    width: 400px;
     height: auto;
     margin: 0 0 0 2rem;
 }
@@ -120,17 +131,24 @@ h2, h3, h4{
     display: flex;
     margin: 0 1rem 0 2rem;
 }
-.adventure, .staff{
+.adventure, .staff, .adventureh{
     display: grid;
     place-items: center;
-    margin: 1rem 0;
+    margin: 4rem 0;
+    border: solid #e1951b;
 }
-.pictures{
+.pictures, .picturesh{
     display: flex;
     flex-wrap: nowrap;
 }
 .pictures img{
     width: 150px;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.picturesh img{
+    width: 400px;
     margin: 1rem;
     display: flex;
     flex-wrap: nowrap;
@@ -206,8 +224,7 @@ table, th, td {
     grid-row: 1/2;
 }
 .action{
-    border: 1px solid black;
-    padding: 0;
+    padding: 1rem;
     text-align: center;   
 }
 .trips{
@@ -216,6 +233,11 @@ table, th, td {
 .book{
     background-color: #3f6e98;
     text-align: center;
+}
+.newsletter h2{
+    text-align: center;
+    padding: 2rem;
+    background-color:#3f6e98 ;
 }
 footer{
     border-top: 1px solid #000;
