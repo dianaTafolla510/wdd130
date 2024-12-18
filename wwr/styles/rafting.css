@@ -1,7 +1,7 @@
 :root {
-    --heading-text-color: --delft-blue: #1e3257ff;
+    /*--heading-text-color: --delft-blue: #1e3257ff;
     --padding: 1rem;
-    --border: 1px solid --silver: #cecac8ff;
+    --border: 1px solid --silver: #cecac8ff;*/
 }
 *{
     margin: 0;
@@ -81,9 +81,7 @@ h1{
     position: absolute;
 }
 h2, h3, h4{
-    /*font-family: "Merriweather", serif;*/
     font-family: "Parkinsans";
-	/*text-align: left;*/
 	font-size: 1.5rem;
 	text-shadow: 3px 3px 5px #777;
 }
